@@ -29,7 +29,6 @@ export default class BannerAd extends Component {
 }
 
 const styles = StyleSheet.create({
-
   adView:
   {
       height: 50,
@@ -40,4 +39,4 @@ const styles = StyleSheet.create({
       alignItems: "center",
 
   },
-  });
+});

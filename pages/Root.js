@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-  Platform,
   StyleSheet,
   Text,
   View,
@@ -9,14 +8,15 @@ import {
   Alert
 } from 'react-native';
 
-import {AdMobInterstitial} from 'react-native-admob'
+import { AdMobInterstitial } from 'react-native-admob'
+
 import BannerAd from './BannerAd.js';
 import LargerBannerAd from './LargerBannerAd.js';
 
 var screenWidth = Dimensions.get("window").width;
 var isAdLoaded = false;
 
-export default class Root extends Component{ 
+export default class Root extends Component { 
 
     constructor(props) {
         super(props);
@@ -67,11 +67,11 @@ export default class Root extends Component{
 
         <View style={styles.container}>
 
-          <BannerAd/>
+        <BannerAd/>
 
-          <Text style={styles.welcome}>
+        <Text style={styles.welcome}>
             Welcome to AdMob Sample
-          </Text>
+        </Text>
 
         <TouchableOpacity style={styles.button}
         onPress={() => this.showInterstitialAd()}>
@@ -90,8 +90,7 @@ export default class Root extends Component{
         </View>
       );
     }
-  }
-
+}
 
 const styles = StyleSheet.create({
     container: {

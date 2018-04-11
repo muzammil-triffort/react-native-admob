@@ -29,15 +29,13 @@ export default class LargerBannerAd extends Component {
 }
 
 const styles = StyleSheet.create({
-
-  adView:
-  {
+    adView:
+    {
       height: 100,
       width: screenWidth,
       backgroundColor: 'white',
       margin:20,
       justifyContent: "center",
       alignItems: "center",
-
-  },
-  });
+    },
+});
