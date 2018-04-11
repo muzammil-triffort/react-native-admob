@@ -4,8 +4,10 @@ Simple AdMob integration in React Native
 
 *Download or clone the project.*
 
-Run:
+Run command:
+
 npm i
+react-native link
 
 Connect Android phone or open Android emulator.
 
