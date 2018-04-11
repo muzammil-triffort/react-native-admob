@@ -7,6 +7,7 @@ Simple AdMob integration in React Native
 Run command:
 
 npm i
+
 react-native link
 
 Connect Android phone or open Android emulator.
