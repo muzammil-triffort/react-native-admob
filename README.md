@@ -14,3 +14,4 @@ Connect Android phone or open Android emulator.
 
 Run react-native run-Android
 
+https://github.com/muzammil-triffort/react-native-admob/blob/master/Screenshot.png?raw=true
